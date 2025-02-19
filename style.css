@@ -1,0 +1,47 @@
+body {
+    padding: 100px;
+    text-align: center;
+    background-color: #2c3e50;
+}
+
+p {
+    color: white;
+}
+
+.colors {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.colors div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+}
+
+.colors div:hover {
+    cursor: pointer;
+}
+
+.bg-blue {
+    background-color: #007bff;
+}
+
+.bg-Grayish {
+    background-color: #6c757d;
+}
+
+.bg-green {
+    background-color: #28a745;
+}
+
+.bg-yellow {
+    background-color: #ffc107;
+}
+
+.bg-dark-gray {
+    background-color: #343a40;
+}
